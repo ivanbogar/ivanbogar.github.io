@@ -996,6 +996,9 @@ li{
 #braskem .top-bar {
     background-image:url(../img/portfolio/project/braskem/braskem_cover.jpg);
 }
+#cepera .top-bar {
+    background-image:url(../img/portfolio/project/cepera-timeline/cepera-timeline-cover.jpg);
+}
 
 /* Mouse scroll
 ==================================================*/
@@ -1007,7 +1010,7 @@ li{
     text-align: right;
     /* float: right; */
     margin-right: -4px;
-    top: 46%;
+    top: 51%;
     right: 0;
 }
 .arrow-down {
@@ -1379,7 +1382,7 @@ footer .col li:first-of-type{
 
 @media only screen and (max-width: 670px) {
     #scroll-down {
-        top: 74%;
+        top: 53%;
     }
     .box-headline {
         font-size: 100px;
