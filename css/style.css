@@ -999,34 +999,55 @@ li{
 #cepera .top-bar {
     background-image:url(../img/portfolio/project/cepera-timeline/cepera-timeline-cover.jpg);
 }
+#closrly .top-bar {
+    background-image:url(../img/portfolio/project/closrly/closrly-cover.png);
+}
+#dipiu .top-bar {
+    background-image:url(../img/portfolio/project/dipiu/dipiu-cover.png);
+}
+#dow-showcase .top-bar {
+    background-image:url(../img/portfolio/project/dow-showcase/dow-showcase-cover.png);
+}
+#escarlate .top-bar {
+    background-image:url(../img/portfolio/project/escarlate/escarlate-cover.png);
+}
+#ibm-ix .top-bar {
+    background-image:url(../img/portfolio/project/ibm-ix/ibmix_cover.png);
+}
+#itau .top-bar {
+    background-image:url(../img/portfolio/project/itau/itau_game_cover.jpg);
+}
+#rockout .top-bar {
+    background-image:url(../img/portfolio/project/rockout/rockout-cover.png);
+}
 
 /* Mouse scroll
 ==================================================*/
 
 #scroll-down {
-    display: inline-block;
+    display: block;
     position: absolute;
-    padding-top: 0;
+    /* padding-top: 0; */
     text-align: right;
-    /* float: right; */
-    margin-right: -4px;
+    float: right;
+    margin-right: 16px;
     top: 51%;
     right: 0;
 }
 .arrow-down {
     display: block;
     margin: 0 auto;
-    width: 12px;
-    height: 12px;
-    margin-top: 73px;
+    width: 16px;
+    height: 16px;
+    margin-top: 48px;
 }
 .arrow-down:after {
     content: '';
     display: block;
     margin: 0;
     padding: 0;
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     border-top: 2px solid #182028;
     border-right: 2px solid #182028;
     /* behavior: url(-ms-transform.htc); */
@@ -1055,7 +1076,7 @@ li{
     animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
     /* IE 10+, Fx 29+ */
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 50%;
     margin-left: -1px;
     width: 2px;
@@ -1370,6 +1391,12 @@ footer .col li:first-of-type{
 ==================================================*/
 
 @media (max-width: 991px) {
+    .box-intro{
+        padding: 88px 0;
+    }
+    #scroll-down {
+        top: 49%;
+    }
     .col-md-6 h3 {
         margin-top: 30px !important;
     }
@@ -1382,7 +1409,7 @@ footer .col li:first-of-type{
 
 @media only screen and (max-width: 670px) {
     #scroll-down {
-        top: 53%;
+        top: 49%;
     }
     .box-headline {
         font-size: 100px;
@@ -1414,6 +1441,16 @@ footer .col li:first-of-type{
 }
 
 @media only screen and (max-width: 520px) {
+    #scroll-title a{
+        display: none;
+    }
+    #scroll-down {
+        top: 44%;
+    }
+    #scroll-down::before{
+        top: 33px;
+    }
+    
     .box-headline {
         font-size: 80px !important;
     }
@@ -1535,6 +1572,9 @@ footer .col li:first-of-type{
     .box-primary-nav-trigger {
         top: 40%;
     }
+    #scroll-down {
+        top: 55%;
+    }
     .box-headline {
         font-size: 50px;
     }
@@ -1564,5 +1604,11 @@ footer .col li:first-of-type{
     .navigation-works_item .item_next h5 em,
     .navigation-works_item .item_previous h5 em {
         font-size: 12px !important;
+    }
+}
+@media only screen and (max-width: 376px) {
+  
+    #scroll-down {
+        top: 45%;
     }
 }
