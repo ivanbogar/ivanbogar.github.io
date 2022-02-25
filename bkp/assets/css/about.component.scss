@@ -1,0 +1,37 @@
+/* About page
+==================================================*/
+
+#about{
+
+    .top-bar {
+        color: #ffffff;
+        background-image:url(../assets/img/about-photo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        text-align: center;
+        
+        h1 {
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 88px;
+            text-align: center;
+        }
+    }
+    .box-social{
+        display: inline;
+        font-size: 24px;
+        // margin-left: 16px;
+    }
+    a{
+        color: #182028;
+    }
+    a:hover{
+        color: #6c757d;
+    }
+    
+    #scroll-down {
+        top: 110%;
+      }
+
+}

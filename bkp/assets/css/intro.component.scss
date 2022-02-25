@@ -1,0 +1,29 @@
+/* box-intro
+==================================================*/
+
+#intro{
+    .box-intro {
+        text-align: center;
+        display: table;
+        height: 512px;
+        width: 100%;
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    
+    /* .box-intro em {
+        font-style: normal;
+        text-transform: uppercase
+    } */
+
+    @media only screen and (max-width: 520px) {
+        .box-intro {
+            padding-top: 96px;
+        }    
+    }
+    @media only screen and (max-width: 420px) {
+        .box-intro {
+            padding-top: 96px;
+        }    
+    }
+}
