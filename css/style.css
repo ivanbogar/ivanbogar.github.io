@@ -1446,6 +1446,7 @@ footer .col li:first-of-type{
     }
     #scroll-down {
         top: 44%;
+        margin-right: 32px;
     }
     #scroll-down::before{
         top: 33px;
